@@ -2,9 +2,6 @@ from typing import Any
 import numpy as np
 from _core import LinearModel
 
-from typing import Any
-
-
 class LogisticRegression(LinearModel):
 
     def __init__(self, lr : float = 0.01, n_iters : int = 1000) -> None:
